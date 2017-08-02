@@ -9,6 +9,11 @@ Resources:
       Handler: index.handler
       Runtime: nodejs6.10
       CodeUri: ./
+      Tags:
+	Name:
+	  Testname
+	Environment:
+	  Integration
       Events:
         MyTimeApi:
           Type: Api
