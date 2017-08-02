@@ -10,10 +10,8 @@ Resources:
       Runtime: nodejs6.10
       CodeUri: ./
       Tags:
-	Name:
-	  Testname
-	Environment:
-	  Integration
+	Name: Testname
+	Environment: Integration
       Events:
         MyTimeApi:
           Type: Api
